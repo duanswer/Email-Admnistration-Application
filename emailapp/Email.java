@@ -64,6 +64,7 @@ public class Email {
 	// Set the alternate email
 	public void setAlternateEmail(String altEmail) {
 		this.alternateEmail = altEmail;
+		
 	}
 	
 	// Change the password

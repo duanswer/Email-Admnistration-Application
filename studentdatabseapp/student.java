@@ -24,12 +24,10 @@ public class student {
 		System.out.println("1- Freshmen\n2- Sophmore\n3- Junior\n4- Senior\n Enter student class lvel: ");
 		this.gradeYear = in.nextInt();
 		
-		System.out.println(firstName + " " + lastName + " " + gradeYear);
-		
-		setStudentID();
-		
-		System.out.println(firstName + " " + lastName + " " + gradeYear + " " + studentID);		
-			
+		System.out.println(firstName + " " + lastName + " " + gradeYear);		
+		setStudentID();		
+		System.out.println(firstName + " " + lastName + " " + gradeYear + " " + studentID);	
+		System.out.println("\n");
 	}
 	
 	// Generate ID
@@ -55,8 +53,7 @@ public class student {
 			}
 		}while(1 != 0);
 		
-		System.out.println("ENROLLED IN: " + courses);
-		
+		System.out.println("ENROLLED IN: " + courses);		
 	}
 	
 	// View balance
@@ -72,10 +69,10 @@ public class student {
 		int payment = in.nextInt();
 		tuitionBalance = tuitionBalance - payment;
 		System.out.println("Thank you for your payment of $" + payment);
-		viewBalance();
-		
+		viewBalance();		
 	}
 	
 	// Show Status
+	
 
 }

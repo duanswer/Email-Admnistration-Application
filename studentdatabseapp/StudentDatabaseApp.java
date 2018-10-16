@@ -7,6 +7,7 @@ public class StudentDatabaseApp {
 
 		// Ask how many new users we want to add
 		st.enroll();
+		st.payTuition();
 		// Create n number of new students			
 
 	}

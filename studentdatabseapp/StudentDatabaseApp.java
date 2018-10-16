@@ -6,10 +6,8 @@ public class StudentDatabaseApp {
 		student st = new student();
 
 		// Ask how many new users we want to add
-		st.Student();
-		// Create n number of new students
-		
-			
+		st.enroll();
+		// Create n number of new students			
 
 	}
 
